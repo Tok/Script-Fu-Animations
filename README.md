@@ -8,12 +8,12 @@ Script and templates to generate GTW-Logo animations in GIMP.
 https://www.gimp.org/
 
 ### Vectors
-https://raw.githubusercontent.com/Tok/script-fu-animations/master/vectors 
+https://github.com/Tok/Script-Fu-Animations/tree/master/vectors
 
 ..contains the original SVG files to recreate the individual layers.
 
 ### GIMP
-https://raw.githubusercontent.com/Tok/script-fu-animations/master/gimp 
+https://github.com/Tok/Script-Fu-Animations/tree/master/gimp
 
 ..contains xcf files with 3 layers combined from the original SVG files in different sizes.
 
@@ -26,6 +26,8 @@ https://docs.gimp.org/en/gimp-concepts-script-fu.html
 ---
 
 ## Results
+https://github.com/Tok/Script-Fu-Animations/tree/master/results
+
 ![GTW Green 480](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/GTW-0.8.0-480-green.gif "Green 480")
 ![GTW Red 320](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/GTW-0.8.0-320-red.gif "Red 320")
 
