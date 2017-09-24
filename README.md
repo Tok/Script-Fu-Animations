@@ -31,5 +31,4 @@ https://github.com/Tok/Script-Fu-Animations/tree/master/results
 ![GTW Green 480](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/gtw/GTW-0.8.0-480-green.gif "Green 480")
 ![GTW Red 320](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/gtw/GTW-0.8.0-320-red.gif "Red 320")
 ---
-![AnVap 800 600](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/anvap/AnVap-0.gif "AnVap 800 600")
-
+![AnVap 800 600](https://raw.githubusercontent.com/Tok/script-fu-animations/master/results/anvap/AnVap-1.gif "AnVap 800 600")
