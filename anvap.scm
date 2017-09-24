@@ -36,14 +36,18 @@
 				(gimp-image-insert-layer newImage newGreenLayer 0 0)
 				(gimp-item-transform-shear newGreenLayer ORIENTATION-VERTICAL (anvap-calc-shear-green i))
 				(anvap-wave newImage newGreenLayer i amplitude-green wave-lengtg-green type-green)
-				(gimp-item-transform-scale newGreenLayer 0.0 0.0 1600.0 600.0)
+				(gimp-item-transform-scale newGreenLayer 0.0 0.0 2400.0 600.0)
+				(gimp-item-transform-flip newGreenLayer 0.0 0.0 0.0 600.0)
+				(gimp-layer-translate newGreenLayer 800.0 0.0)
 				(gimp-image-merge-down newImage newGreenLayer CLIP-TO-IMAGE)
 
 				;;; purple
 				(gimp-image-insert-layer newImage newPurpleLayer 0 0)
 				(gimp-item-transform-shear newPurpleLayer ORIENTATION-VERTICAL (anvap-calc-shear-purple i))
 				(anvap-wave newImage newPurpleLayer i amplitude-purple wave-lengtg-purple type-purple)
-				(gimp-item-transform-scale newPurpleLayer (- 0.0 400.0) 0.0 2400.0 600.0)
+				(gimp-item-transform-scale newPurpleLayer 0.0 0.0 2400.0 600.0)
+				(gimp-item-transform-flip newPurpleLayer 0.0 0.0 0.0 600.0)
+				(gimp-layer-translate newPurpleLayer 800.0 0.0)
 				(gimp-image-merge-down newImage newPurpleLayer CLIP-TO-IMAGE)
 
 				;;; black
